@@ -1,6 +1,8 @@
 # StyleSense 👗🧠  
 Agentic, Multimodal Generative AI Fashion Recommendation System
 
+🏆 Hackathon Project | Domain: Agentic AI, Generative AI & Machine Learning
+
 ## Overview
 StyleSense is an AI-powered virtual fashion stylist that generates
 personalized, culturally aware outfit recommendations using
