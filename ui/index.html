@@ -5,13 +5,28 @@
 </head>
 <body>
   <h1>StyleSense</h1>
-  <p>AI-powered fashion recommendations</p>
 
-  <input placeholder="Occasion" />
-  <input placeholder="State (India)" />
+  <label>Occasion:</label>
+  <input id="occasion" placeholder="College, Office, Festival" />
 
-  <button>Generate Outfit</button>
+  <label>State:</label>
+  <input id="state" placeholder="Telangana" />
 
-  <pre>AI output will appear here</pre>
+  <label>Mode:</label>
+  <select id="mode">
+    <option>Minimalist</option>
+    <option>Vintage</option>
+  </select>
+
+  <button onclick="generate()">Generate Outfit</button>
+
+  <pre id="result"></pre>
+
+  <script>
+    async function generate() {
+      document.getElementById("result").innerText =
+        "AI Outfit will appear here (API integration next)";
+    }
+  </script>
 </body>
 </html>
